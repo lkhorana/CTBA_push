@@ -1,0 +1,75 @@
+/*General Site Styling*/
+body{
+    
+    background-color: #2d2d30;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navigation Bar Styles*/
+.navbar{
+    background-color: #5e5e6b;
+    padding: 12px 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    max-height: 25px;
+    color: #ffffff;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    margin: 25px 12px;
+    text-decoration: none;
+    padding: 6px 100px;
+    border-radius: 6px;
+}
+
+.nav-link:hover{
+    color: #242427;
+    text-decoration: underline;
+}
+
+/*Home Page Styles*/
+
+.block-title{
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.block-subtitle{
+    color: #ffffff;
+}
+
+.block-hometext{
+    color: #ffffff;
+}
+
+.block-fun{
+    color: #ffffff;
+}
+
+.block-footer{
+    color: #ffffff;
+}
+
+#btn-popup{
+    display: inline-block;
+    font-size: 18px;
+    border: 8px;
+    border-radius: 8px;
+    color: #3a3a3a;
+}
+
+#btn-popup:hover{
+    background-color: #242427;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Dropdown edits */
+
+.dropdown{
+    color:#242427
+}

@@ -9,10 +9,7 @@ def get_unemployment_data():  # for the graph / to get the full dataset
         "seriesid": ["LNS14000000"],
         "startyear": "2023",
         "endyear": "2024",
-        "registrationKey": "9f06a477c6e4414c8badb6c758a76c65"  # Latisha's API key
-        #Brandons API key: 62a39a9417d948298af08401d3fba81
-        #Latisha API key : 58f92b2321594110917a796b5505c
-        #RaKaya API key: 9f06a477c6e4414c8badb6c758a76c65
+        "registrationKey": "9f06a477c6e4414c8badb6c758a76c65" 
     }
 
     # Headers to avoid connection issues

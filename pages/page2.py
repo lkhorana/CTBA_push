@@ -130,7 +130,7 @@ layout = html.Div(
             # The dropdown menu for filtering by industry.
             html.Div([
                 html.Label("Select an Industry:", style={"color": "#ffffff"}),
-                dcc.Dropdown(id='industry-dropdown', options=industry_options, value='All Industries', clearable=False)
+                html.Div(dcc.Dropdown(id='industry-dropdown', options=industry_options, value='All Industries', clearable=False), className= "dropdown")
             ], style={'width': '48%', 'display': 'inline-block'}),
             
             # The text input box for searching job titles.
